@@ -1,0 +1,12 @@
+{
+  "name": "wqy-microhei",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "ttc",
+    "Makefile",
+    "ttc2ttf",
+    "node_modules",
+    "components"
+  ]
+}

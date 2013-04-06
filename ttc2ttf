@@ -1,0 +1,6 @@
+#!/usr/bin/env fontforge -lang=ff 
+Open($1 + '(0)');
+Generate($2 + "/" + $fontname + ".ttf", '',  0x04 | 0x80 | 0x800000 | 0x1000000 | 0x2000000);
+Open($1 + '(1)');
+Generate($2 + "/" + $fontname + ".ttf", '',  0x04 | 0x80 | 0x800000 | 0x1000000 | 0x2000000);
+Quit(0);
